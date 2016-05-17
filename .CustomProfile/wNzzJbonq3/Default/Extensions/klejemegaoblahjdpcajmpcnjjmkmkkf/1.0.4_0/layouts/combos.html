@@ -1,0 +1,30 @@
+<div id="combos">
+
+	<div id="combos_sound">
+		<div id="soundToggle">
+			<img alt="Mute" id="unmute-button" src="img/unmute.png" style="opacity: 0.5" title="Mute">
+			<img alt="Unmute" id="mute-button" src="img/mute.png" style="opacity: 1; display:none" title="Unmute">
+		</div>
+		<input id="soundSlider" type="range" name="points" min="0" max="100" value="100">
+	</div>
+
+	<ul id="combos_list">
+	</ul>
+
+	<div id="combos_timer">
+		<div id="timer_counter" class="stopped">
+			<input id="timer_hours" class="timer_part" maxlength="2" min="00" max="23"/>
+			<span>:</span>
+			<input id="timer_minutes" class="timer_part" maxlength="2" min="00" max="59"/>
+			<span>:</span>
+			<input id="timer_seconds" class="timer_part" maxlength="2" min="00" max="59"/>
+		</div>
+		<ul id="timer_controls">
+			<li><a href="#" class="noisli-button" id="timer_start">Start</a></li>
+			<li><a href="#" class="noisli-button" id="timer_stop" style="display:none">Cancel</a></li>
+			<li><a href="#" class="noisli-button" id="timer_pause">Pause</a></li>
+			<li><a href="#" class="noisli-button" id="timer_resume" style="display:none">Resume</a></li>
+		</ul>
+	</div>
+
+</div>

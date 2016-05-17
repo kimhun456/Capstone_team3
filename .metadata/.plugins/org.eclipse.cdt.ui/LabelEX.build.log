@@ -1,0 +1,7 @@
+00:17:34 **** Build of configuration Debug for project LabelEX ****
+ninja all 
+[1/2] Building src/labelex.o
+[2/2] Linking labelex
+
+00:17:35 Build Finished (took 1s.281ms)
+

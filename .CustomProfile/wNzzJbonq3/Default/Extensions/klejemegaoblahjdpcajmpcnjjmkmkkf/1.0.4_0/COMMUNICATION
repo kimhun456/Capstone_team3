@@ -1,0 +1,35 @@
+COMMUNICATION
+=============
+
+{ action: "loadCombos" } => { success: true/false, message: "...", data: { httpCode: "" } }
+{ action: "loadSounds" } => { success: true/false, message: "..." }
+
+{ action: "login", argument: {email: "", password: "" , remember_me: ""} } => { success: true/false, message: "...", data: "" }
+{ action: "loginOauth", argument: provider } => { success: true/false, message: "..." }
+{ action: "logout" } => { success: true/false, message: "..." }
+{ action: "signup" } => { success: true/false, message: "..." }
+{ action: "forgot" } => { success: true/false, message: "..." }
+
+{ action: "createCombo"} => { success: true/false, message: "..." }
+{ action: "playCombo", argument: id } => { success: true/false, message: "..." }
+{ action: "stopAll" } => { success: true/false, message: "..." }
+{ action: "toggleMute", argument: true/false} => { success: true/false, message: "..." }
+{ action: "setVolume", argument: value } => { success: true/false, message: "..." }
+
+{ action: "setTimer", argument: value } => { success: true/false, message: "..." }
+{ action: "startTimer", argument: value } => { success: true/false, message: "..." }
+{ action: "stopTimer" } => { success: true/false, message: "..." }
+{ action: "pauseTimer" } => { success: true/false, message: "..." }
+{ action: "resumeTimer" } => { success: true/false, message: "..." }
+
+//EXTENSION BACKGROUND
+{ action: "getGeneralState" } => { success: true/false, message: "...", data: { isUserLoggedIn: "", selectedComboID: "", isMuted: "", volume: "" } }
+{ action: "getTimerState" } => { success: true/false, message: "...", data: { timerState: "", time: "" } }
+
+//DATABASE
+{ action: "getUserInfo" } => { success: true/false, message: "...", data: {...} }
+
+{ action: "loadTimer" } => { success: true/false, message: "...", data: timer }
+{ action: "saveTimer", argument: timer } => { success: true/false, message: "..." }
+
+{ action: "loadState" } => { success: true/false, message: "...", data: data }

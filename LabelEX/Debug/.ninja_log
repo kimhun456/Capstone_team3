@@ -1,0 +1,23 @@
+# ninja log v5
+0	362	0	src/labelex.o	1e0a0d85a54e8fca
+363	862	0	labelex	e4c9d9469826fc8f
+1	208	0	src/labelex.o	1e0a0d85a54e8fca
+208	428	0	labelex	e4c9d9469826fc8f
+2	201	0	src/labelex.o	1e0a0d85a54e8fca
+201	417	0	labelex	e4c9d9469826fc8f
+2	204	0	src/labelex.o	1e0a0d85a54e8fca
+204	402	0	labelex	e4c9d9469826fc8f
+2	293	0	src/labelex.o	1e0a0d85a54e8fca
+293	741	0	labelex	e4c9d9469826fc8f
+2	604	0	src/labelex.o	1e0a0d85a54e8fca
+604	1039	0	labelex	e4c9d9469826fc8f
+1	694	0	src/labelex.o	1e0a0d85a54e8fca
+695	1227	0	labelex	e4c9d9469826fc8f
+1	270	0	src/labelex.o	1e0a0d85a54e8fca
+271	589	0	labelex	e4c9d9469826fc8f
+1	251	0	src/labelex.o	1e0a0d85a54e8fca
+251	481	0	labelex	e4c9d9469826fc8f
+0	5	0	clean_sa	635e7f68e54c0b3f
+6	11	0	clean	d59b6dac04fa9b5d
+1	760	0	src/labelex.o	1e0a0d85a54e8fca
+762	1222	0	labelex	e4c9d9469826fc8f

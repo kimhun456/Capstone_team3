@@ -1,0 +1,26 @@
+<div id="login">
+	<h1 class="logo">Noisli</h1>
+
+	<form id="login_form" method="post" action="">
+		<div class="form_group">
+			<input id="email-field" type="text" class="noisli-field" name="email" value="" placeholder="Email Address">
+			<span id="email-error" style="display:none">insert a valid email</span>
+		</div>
+		<div class="form_group">
+			<input id="password-field" type="password" class="noisli-field" name="password" value="" placeholder="Password">
+			<span id="password-error" style="display:none">wrong password</span>
+		</div>	    
+		<input id="login_button" class="noisli-button" type="submit" name="commit" value="Log in">
+	</form>
+
+	<ul id="login_social">
+		<li><a id="login_facebook" href="#" class="noisli-button"><img src="img/signin-facebook.png"/>Sign In</a></li>
+		<li><a id="login_google" href="#" class="noisli-button"><img src="img/signin-google-plus.png"/>Sign In</a></li>
+	</ul>
+
+	<p id="login_footer">
+		<a id="create_account" href="#">Create Account</a>
+		<span>-</span>
+		<a id="forgot_password" href="#">Reset Password</a>
+	</p>
+</div>

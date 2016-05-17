@@ -1,0 +1,9 @@
+00:17:28 **** Clean-only build of configuration Debug for project LabelEX ****
+ninja clean 
+[1/2] Cleaning SA Report files ..
+[2/2] Cleaning build files ...
+Cleaning... 0 files.
+00:17:34 **** Build of configuration Debug for project LabelEX ****
+ninja all 
+[1/2] Building src/labelex.o
+[2/2] Linking labelex
