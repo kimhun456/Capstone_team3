@@ -4,3 +4,5 @@
 author-signature.xml
 signature1.xml
 bin/basicui
+shared/res/basicui.png
+tizen-manifest.xml

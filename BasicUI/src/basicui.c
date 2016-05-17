@@ -1,7 +1,5 @@
 #include "basicui.h"
 
-
-
 /*
  *
  * 앱정보를 저장하는 구조체이다.
@@ -18,7 +16,6 @@ win_delete_request_cb(void *data, Evas_Object *obj, void *event_info)
 {
 	ui_app_exit();
 }*/
-
 
 /**
  *
