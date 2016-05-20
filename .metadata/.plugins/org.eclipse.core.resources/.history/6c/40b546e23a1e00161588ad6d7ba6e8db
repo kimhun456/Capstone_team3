@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>Circular UI</title>
+	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+	<!-- CSS파일 로딩 -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="ui-page ui-page-active" id="first">
+	   <div class="ui-content">
+	      <a href="pageTwo.html">Go to page two</a>
+	   </div>
+	</div>
+	<div class="ui-page" id="two">
+	   <div class="ui-content">
+	      <a href="pageOne.html">Go to page one</a>
+	   </div>
+	</div>
+
+	<!-- 자바 스크립트 파일 로딩 -->
+	<script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
+	<script type="text/javascript" src="js/circle-helper.js"></script>
+	<script src="app.js"></script>
+	<script src="lowBatteryCheck.js"></script>
+</body>
+</html>

@@ -73,22 +73,30 @@
 		<item value="org.tizen.base.feature:2.0.0"/>
 		<item value="org.tizen.base.native.feature:2.0.0"/>
 		<item value="org.tizen.base.web.feature:2.0.0"/>
-		<item value="org.tizen.common.feature:2.0.0.201602221115"/>
-		<item value="org.tizen.dynamicanalysis.ide.eplugin.feature:2.1.0.201601140451"/>
-		<item value="org.tizen.dynamicanalysis.ide.web.eplugin.feature:2.1.0.201511130646"/>
-		<item value="org.tizen.nativeappcommon.feature:2.0.0.201512301753"/>
-		<item value="org.tizen.nativecommon.feature:2.0.0.201602191801"/>
-		<item value="org.tizen.nativecore.ext.feature:1.0.0.201601081435"/>
-		<item value="org.tizen.nativecore.feature:2.0.0.201602191802"/>
-		<item value="org.tizen.profiler.feature:1.0.0.201601140450"/>
-		<item value="org.tizen.unittest.feature:2.0.0.201602191917"/>
-		<item value="org.tizen.web.feature:2.0.0.201602221227"/>
-		<item value="org.tizen.web.simulator.feature:1.0.0.201509101135"/>
+		<item value="org.tizen.common.feature:2.0.0.201604221813"/>
+		<item value="org.tizen.dynamicanalysis.ide.eplugin.feature:2.1.0.201603081456"/>
+		<item value="org.tizen.dynamicanalysis.ide.web.eplugin.feature:2.1.0.201603081455"/>
+		<item value="org.tizen.efluibuilder.feature:1.0.0.201604261512"/>
+		<item value="org.tizen.nativeappcommon.feature:2.0.0.201603081642"/>
+		<item value="org.tizen.nativecommon.feature:2.0.0.201604061944"/>
+		<item value="org.tizen.nativecore.ext.feature:1.0.0.201605041600"/>
+		<item value="org.tizen.nativecore.feature:2.0.0.201604061945"/>
+		<item value="org.tizen.profiler.feature:1.0.0.201603101627"/>
+		<item value="org.tizen.unittest.feature:2.0.0.201604111655"/>
+		<item value="org.tizen.web.feature:2.0.0.201604221816"/>
+		<item value="org.tizen.web.simulator.feature:1.0.0.201603211021"/>
 	</list>
 	<section name="NewWizardAction">
 		<item value="org.tizen.web.project.wizard.webapp" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.tizen.nativeapp.newCategory"/>
 		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="529" key="DIALOG_HEIGHT"/>
+		<item value="357" key="DIALOG_X_ORIGIN"/>
+		<item value="22" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

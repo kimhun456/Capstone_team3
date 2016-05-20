@@ -1,7 +1,0 @@
-{
-  "name": "runners",
-  "description": "mocha runners",
-  "dependencies":{
-  },
-  "scripts": ["index.js", "async.js"]
-}

@@ -1,0 +1,12 @@
+14:41:04 **** Build of configuration Debug for project SettingsUI ****
+ninja all 
+[1/3] Building src/main.o
+[2/3] Building res/edje/setting.edj
+FAILED: edje_cc -deps res/edje/setting.edj.d -id "/Users/HyunJae/tizen/SettingsUI/edje/images" -id "/Users/HyunJae/tizen-sdk/tools/enventor/share/enventor/images" -sd "/Users/HyunJae/tizen/SettingsUI/edje/sounds" -sd "/Users/HyunJae/tizen-sdk/tools/enventor/share/enventor/sounds" -fd "/Users/HyunJae/tizen/SettingsUI/edje/fonts" -fd "/Users/HyunJae/tizen-sdk/tools/enventor/share/enventor/fonts" ../res/edje/setting.edc res/edje/setting.edj
+dyld: Library not loaded: /Users/winset/efl-tools-build/lib/libeio.1.dylib
+  Referenced from: /Users/HyunJae/tizen-sdk/platforms/tizen-2.3.1/common/efl-tool/efl-tools/bin/edje_cc
+  Reason: image not found
+ninja: build stopped: subcommand failed.
+
+14:41:05 Build Finished (took 395ms)
+
