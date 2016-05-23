@@ -1,0 +1,19 @@
+03:09:04 **** Build of configuration Debug for project Presentor ****
+ninja all 
+[1/8] Building src/bt_chat.o
+[2/8] Building src/bt_chat_room.o
+[3/8] Building src/bt_genlist.o
+[4/8] Building src/bt_mgr.o
+[5/8] Building src/bt_noti.o
+[6/8] Building res/edje/bt_chat.edj
+[7/8] Building res/edje/create_server.edj
+edje_cc: Warning. Part 'console' in group 'create_server' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
+edje_cc: Warning. This is almost certainly not what you want.
+../src/bt_mgr.c:127:13: warning: unused function '_adapter_discovery_state_changed_cb' [-Wunused-function]
+static void _adapter_discovery_state_changed_cb(int result, bt_adapter_device_discovery_state_e discovery_state, bt_adapter_device_discovery_info_s *discovery_info, void *user_data)
+            ^
+1 warning generated.
+[8/8] Linking capstone
+
+03:09:06 Build Finished (took 1s.236ms)
+

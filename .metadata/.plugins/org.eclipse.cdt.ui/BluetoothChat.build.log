@@ -1,16 +1,7 @@
-15:57:52 **** Incremental Build of configuration Debug for project BluetoothChat ****
+02:58:54 **** Incremental Build of configuration Debug for project BluetoothChat ****
 ninja all 
-[1/2] Building res/edje/bt_chat.edj
-[2/2] Building res/edje/create_server.edj
-FAILED: edje_cc -deps res/edje/create_server.edj.d -id "/Users/HyunJae/tizen/BluetoothChat/edje/images" -id "/Users/HyunJae/tizen-sdk/tools/enventor/share/enventor/images" -sd "/Users/HyunJae/tizen/BluetoothChat/edje/sounds" -sd "/Users/HyunJae/tizen-sdk/tools/enventor/share/enventor/sounds" -fd "/Users/HyunJae/tizen/BluetoothChat/edje/fonts" -fd "/Users/HyunJae/tizen-sdk/tools/enventor/share/enventor/fonts" ../res/edje/create_server.edc res/edje/create_server.edj
-dyld: Library not loaded: /Users/winset/efl-tools-build/lib/libeio.1.dylib
-  Referenced from: /Users/HyunJae/tizen-sdk/platforms/tizen-2.3.1/common/efl-tool/efl-tools/bin/edje_cc
-  Reason: image not found
-FAILED: edje_cc -deps res/edje/bt_chat.edj.d -id "/Users/HyunJae/tizen/BluetoothChat/edje/images" -id "/Users/HyunJae/tizen-sdk/tools/enventor/share/enventor/images" -sd "/Users/HyunJae/tizen/BluetoothChat/edje/sounds" -sd "/Users/HyunJae/tizen-sdk/tools/enventor/share/enventor/sounds" -fd "/Users/HyunJae/tizen/BluetoothChat/edje/fonts" -fd "/Users/HyunJae/tizen-sdk/tools/enventor/share/enventor/fonts" ../res/edje/bt_chat.edc res/edje/bt_chat.edj
-dyld: Library not loaded: /Users/winset/efl-tools-build/lib/libeio.1.dylib
-  Referenced from: /Users/HyunJae/tizen-sdk/platforms/tizen-2.3.1/common/efl-tool/efl-tools/bin/edje_cc
-  Reason: image not found
-ninja: build stopped: subcommand failed.
+[1/2] Building src/bt_chat_room.o
+[2/2] Linking capstone
 
-15:57:53 Build Finished (took 75ms)
+02:58:55 Build Finished (took 1s.319ms)
 

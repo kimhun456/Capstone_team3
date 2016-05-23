@@ -164,3 +164,150 @@ dyld: Library not loaded: /Users/winset/efl-tools-build/lib/libeio.1.dylib
   Referenced from: /Users/HyunJae/tizen-sdk/platforms/tizen-2.3.1/common/efl-tool/efl-tools/bin/edje_cc
   Reason: image not found
 ninja: build stopped: subcommand failed.
+18:04:18 **** Build of configuration Debug for project BluetoothChat ****
+ninja all 
+[1/8] Building src/bt_chat.o
+[2/8] Building src/bt_chat_room.o
+[3/8] Building src/bt_genlist.o
+[4/8] Building src/bt_mgr.o
+[5/8] Building src/bt_noti.o
+[6/8] Building res/edje/bt_chat.edj
+[7/8] Building res/edje/create_server.edj
+edje_cc: Warning. Part 'console' in group 'create_server' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
+edje_cc: Warning. This is almost certainly not what you want.
+[8/8] Linking bluetoothchat
+18:12:42 **** Incremental Build of configuration Debug for project BluetoothChat ****
+ninja all 
+ninja: no work to do.
+18:17:30 **** Incremental Build of configuration Debug for project BluetoothChat ****
+ninja all 
+ninja: no work to do.
+18:19:24 **** Incremental Build of configuration Debug for project BluetoothChat ****
+ninja all 
+[1/1] Linking bluetoothchat
+18:21:37 **** Build of configuration Debug for project BluetoothChat ****
+ninja all 
+[1/8] Building src/bt_chat.o
+[2/8] Building src/bt_chat_room.o
+[3/8] Building src/bt_genlist.o
+[4/8] Building src/bt_mgr.o
+[5/8] Building src/bt_noti.o
+[6/8] Building res/edje/bt_chat.edj
+[7/8] Building res/edje/create_server.edj
+edje_cc: Warning. Part 'console' in group 'create_server' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
+edje_cc: Warning. This is almost certainly not what you want.
+[8/8] Linking bluetoothchat
+18:35:53 **** Incremental Build of configuration Debug for project BluetoothChat ****
+ninja all 
+[1/1] Linking bluetoothchat
+19:00:57 **** Build of configuration Debug for project BluetoothChat ****
+ninja all 
+[1/1] Linking bluetoothchat
+19:01:08 **** Incremental Build of configuration Debug for project BluetoothChat ****
+ninja all 
+ninja: no work to do.
+19:15:11 **** Build of configuration Debug for project BluetoothChat ****
+ninja all 
+[1/8] Building src/bt_chat.o
+[2/8] Building src/bt_chat_room.o
+[3/8] Building src/bt_genlist.o
+[4/8] Building src/bt_mgr.o
+[5/8] Building src/bt_noti.o
+[6/8] Building res/edje/bt_chat.edj
+[7/8] Building res/edje/create_server.edj
+edje_cc: Warning. Part 'console' in group 'create_server' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
+edje_cc: Warning. This is almost certainly not what you want.
+[8/8] Linking bluetoothchat
+19:15:54 **** Incremental Build of configuration Debug for project BluetoothChat ****
+ninja all 
+ninja: no work to do.
+19:16:16 **** Incremental Build of configuration Debug for project BluetoothChat ****
+ninja all 
+ninja: no work to do.
+19:16:40 **** Incremental Build of configuration Debug for project BluetoothChat ****
+ninja all 
+[1/6] Building src/bt_chat.o
+[2/6] Building src/bt_chat_room.o
+[3/6] Building src/bt_genlist.o
+[4/6] Building src/bt_mgr.o
+[5/6] Building src/bt_noti.o
+[6/6] Linking bluetoothchat
+02:42:19 **** Build of configuration Debug for project BluetoothChat ****
+ninja all 
+[1/8] Building src/bt_chat.o
+[2/8] Building src/bt_chat_room.o
+[3/8] Building src/bt_genlist.o
+[4/8] Building src/bt_mgr.o
+[5/8] Building src/bt_noti.o
+[6/8] Building res/edje/bt_chat.edj
+[7/8] Building res/edje/create_server.edj
+edje_cc: Warning. Part 'console' in group 'create_server' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
+edje_cc: Warning. This is almost certainly not what you want.
+../src/bt_mgr.c:127:13: warning: unused function '_adapter_discovery_state_changed_cb' [-Wunused-function]
+static void _adapter_discovery_state_changed_cb(int result, bt_adapter_device_discovery_state_e discovery_state, bt_adapter_device_discovery_info_s *discovery_info, void *user_data)
+            ^
+1 warning generated.
+[8/8] Linking bluetoothchat
+02:42:46 **** Incremental Build of configuration Debug for project BluetoothChat ****
+ninja all 
+ninja: no work to do.
+02:44:34 **** Incremental Build of configuration Debug for project BluetoothChat ****
+ninja all 
+ninja: no work to do.
+02:44:48 **** Build of configuration Release for project BluetoothChat ****
+ninja all 
+[1/8] Building src/bt_chat.o
+[2/8] Building src/bt_chat_room.o
+[3/8] Building src/bt_genlist.o
+[4/8] Building src/bt_mgr.o
+[5/8] Building src/bt_noti.o
+[6/8] Building res/edje/bt_chat.edj
+[7/8] Building res/edje/create_server.edj
+edje_cc: Warning. Part 'console' in group 'create_server' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
+edje_cc: Warning. This is almost certainly not what you want.
+../src/bt_mgr.c:127:13: warning: unused function '_adapter_discovery_state_changed_cb' [-Wunused-function]
+static void _adapter_discovery_state_changed_cb(int result, bt_adapter_device_discovery_state_e discovery_state, bt_adapter_device_discovery_info_s *discovery_info, void *user_data)
+            ^
+1 warning generated.
+[8/8] Linking org.example.bluetoothchat
+02:45:10 **** Clean-only build of configuration Debug for project BluetoothChat ****
+ninja clean 
+[1/2] Cleaning SA Report files ..
+[2/2] Cleaning build files ...
+Cleaning... 8 files.
+02:45:10 **** Build of configuration Debug for project BluetoothChat ****
+ninja all 
+[1/8] Building src/bt_chat.o
+[2/8] Building src/bt_chat_room.o
+[3/8] Building src/bt_genlist.o
+[4/8] Building src/bt_mgr.o
+[5/8] Building src/bt_noti.o
+[6/8] Building res/edje/bt_chat.edj
+[7/8] Building res/edje/create_server.edj
+edje_cc: Warning. Part 'console' in group 'create_server' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
+edje_cc: Warning. This is almost certainly not what you want.
+../src/bt_mgr.c:127:13: warning: unused function '_adapter_discovery_state_changed_cb' [-Wunused-function]
+static void _adapter_discovery_state_changed_cb(int result, bt_adapter_device_discovery_state_e discovery_state, bt_adapter_device_discovery_info_s *discovery_info, void *user_data)
+            ^
+1 warning generated.
+[8/8] Linking bluetoothchat
+02:58:54 **** Incremental Build of configuration Debug for project BluetoothChat ****
+ninja all 
+[1/2] Building src/bt_chat_room.o
+[2/2] Linking capstone
+03:09:04 **** Build of configuration Debug for project Presentor ****
+ninja all 
+[1/8] Building src/bt_chat.o
+[2/8] Building src/bt_chat_room.o
+[3/8] Building src/bt_genlist.o
+[4/8] Building src/bt_mgr.o
+[5/8] Building src/bt_noti.o
+[6/8] Building res/edje/bt_chat.edj
+[7/8] Building res/edje/create_server.edj
+edje_cc: Warning. Part 'console' in group 'create_server' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
+edje_cc: Warning. This is almost certainly not what you want.
+../src/bt_mgr.c:127:13: warning: unused function '_adapter_discovery_state_changed_cb' [-Wunused-function]
+static void _adapter_discovery_state_changed_cb(int result, bt_adapter_device_discovery_state_e discovery_state, bt_adapter_device_discovery_info_s *discovery_info, void *user_data)
+            ^
+1 warning generated.
+[8/8] Linking capstone

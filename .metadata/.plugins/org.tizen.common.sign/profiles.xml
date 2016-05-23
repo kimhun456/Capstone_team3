@@ -5,4 +5,11 @@
 <profileitem ca="" distributor="1" key="/Users/HyunJae/tizen-sdk-data/keystore/Hyunjae/distributor.p12" password="5FEJiNgsvDNtbyG7tkwShA==" rootca=""/>
 <profileitem ca="" distributor="2" key="" password="xmEcrXPl1ss=" rootca=""/>
 </profile>
+<profile name="Hasdf">
+<profileitem ca="" distributor="0" key="/Users/HyunJae/tizen-sdk-data/keystore/Hasdf/author.p12" password="5FEJiNgsvDNtbyG7tkwShA==" rootca=""/>
+</profile>
+<profile name="gears2">
+<profileitem ca="" distributor="0" key="/Users/HyunJae/tizen-sdk-data/keystore/gears2/author.p12" password="5FEJiNgsvDNtbyG7tkwShA==" rootca=""/>
+<profileitem ca="" distributor="1" key="/Users/HyunJae/tizen-sdk-data/keystore/gears2/distributor.p12" password="5FEJiNgsvDNtbyG7tkwShA==" rootca=""/>
+</profile>
 </profiles>

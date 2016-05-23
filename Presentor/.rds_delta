@@ -1,0 +1,10 @@
+#delete
+#add
+#modify
+author-signature.xml
+signature1.xml
+bin/bluetoothchat
+res/edje/bt_chat.edj
+res/edje/create_server.edj
+shared/res/bluetoothchat.png
+tizen-manifest.xml
