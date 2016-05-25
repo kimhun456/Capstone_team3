@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BasicUI/src/basicui.c&apos; to &apos;basicui.cpp&apos;" description="Rename resource &apos;basicui.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/basicui.c" name="basicui.cpp" stamp="1464079943665" updateReferences="true"/>
+</session>

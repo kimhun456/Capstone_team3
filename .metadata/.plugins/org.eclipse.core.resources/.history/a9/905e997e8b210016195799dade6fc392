@@ -1,0 +1,15 @@
+/*
+ * clock.h
+ *
+ *  Created on: May 24, 2016
+ *      Author: HyunJae
+ */
+
+#ifndef CLOCK_H_
+#define CLOCK_H_
+
+
+static void make_clock(appdata_s *ad);
+
+
+#endif /* CLOCK_H_ */

@@ -225,11 +225,16 @@ int main(int argc, char *argv[])
 	event_callback.resume = _app_resume;
 	event_callback.app_control = _app_control;
 
-	ui_app_add_event_handler(&handlers[APP_EVENT_LOW_BATTERY], APP_EVENT_LOW_BATTERY, _ui_app_low_battery, &ad);
-	ui_app_add_event_handler(&handlers[APP_EVENT_LOW_MEMORY], APP_EVENT_LOW_MEMORY, _ui_app_low_memory, &ad);
-	ui_app_add_event_handler(&handlers[APP_EVENT_DEVICE_ORIENTATION_CHANGED], APP_EVENT_DEVICE_ORIENTATION_CHANGED, _ui_app_orient_changed, &ad);
-	ui_app_add_event_handler(&handlers[APP_EVENT_LANGUAGE_CHANGED], APP_EVENT_LANGUAGE_CHANGED, _ui_app_lang_changed, &ad);
-	ui_app_add_event_handler(&handlers[APP_EVENT_REGION_FORMAT_CHANGED], APP_EVENT_REGION_FORMAT_CHANGED, _ui_app_region_changed, &ad);
+	ui_app_add_event_handler(&handlers[APP_EVENT_LOW_BATTERY],
+		APP_EVENT_LOW_BATTERY, _ui_app_low_battery, &ad);
+	ui_app_add_event_handler(&handlers[APP_EVENT_LOW_MEMORY],
+		APP_EVENT_LOW_MEMORY, _ui_app_low_memory, &ad);
+	ui_app_add_event_handler(&handlers[APP_EVENT_DEVICE_ORIENTATION_CHANGED],
+			APP_EVENT_DEVICE_ORIENTATION_CHANGED, _ui_app_orient_changed, &ad);
+	ui_app_add_event_handler(&handlers[APP_EVENT_LANGUAGE_CHANGED],
+		APP_EVENT_LANGUAGE_CHANGED, _ui_app_lang_changed, &ad);
+	ui_app_add_event_handler(&handlers[APP_EVENT_REGION_FORMAT_CHANGED],
+			APP_EVENT_REGION_FORMAT_CHANGED, _ui_app_region_changed, &ad);
 	ui_app_remove_event_handler(handlers[APP_EVENT_LOW_MEMORY]);
 
 	ret = ui_app_main(argc, argv, &event_callback, &ad);

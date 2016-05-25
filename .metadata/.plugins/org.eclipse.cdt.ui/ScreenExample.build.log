@@ -1,0 +1,14 @@
+21:21:34 **** Incremental Build of configuration Debug for project ScreenExample ****
+ninja all 
+[1/2] Building src/screenexample.o
+../src/screenexample.cpp:11:1: warning: unused function 'win_delete_request_cb' [-Wunused-function]
+win_delete_request_cb(void *data, Evas_Object *obj, void *event_info)
+^
+../src/screenexample.cpp:17:1: warning: unused function 'win_back_cb' [-Wunused-function]
+win_back_cb(void *data, Evas_Object *obj, void *event_info)
+^
+2 warnings generated.
+[2/2] Linking screenexample
+
+21:21:35 Build Finished (took 646ms)
+

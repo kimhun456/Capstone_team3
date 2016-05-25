@@ -1,0 +1,12 @@
+21:42:12 **** Build of configuration Debug for project Stopwatch ****
+ninja all 
+[1/5] Building src/data.o
+[2/5] Building src/main.o
+[3/5] Building src/view.o
+[4/5] Building res/edje/main.edj
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+[5/5] Linking stopwatch
+
+21:42:12 Build Finished (took 506ms)
+

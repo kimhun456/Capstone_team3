@@ -1,0 +1,32 @@
+/*
+ * data.h
+ *
+ *  Created on: May 24, 2016
+ *      Author: HyunJae
+ */
+
+#ifndef DATA_H_
+#define DATA_H_
+
+#include <app.h>
+#include <Elementary.h>
+#include <system_settings.h>
+#include <efl_extension.h>
+#include <dlog.h>
+#include <stdlib.h>
+#include <string>
+
+typedef struct appdata {
+	Evas_Object *win;
+	Evas_Object *conform;
+	Evas_Object *naviframe;
+	Evas_Object *box;
+	Evas_Object *label;
+	Evas_Object* startButton;
+	Evas_Object* startButton;
+	Evas_Object *button;
+	int count;
+} appdata_s;
+
+
+#endif /* DATA_H_ */

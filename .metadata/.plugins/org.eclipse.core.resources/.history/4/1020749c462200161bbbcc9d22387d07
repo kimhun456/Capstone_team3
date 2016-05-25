@@ -1,0 +1,47 @@
+/*
+ * clock.cpp
+ *
+ *  Created on: May 24, 2016
+ *      Author: HyunJae
+ */
+
+#include "clock.h"
+
+using namespace std;
+
+
+string getCurrentTime(){
+
+}
+
+Eina_Bool
+ticktock(void *data) {
+
+
+	appdata_s *ad =  static_cast<appdata_s*>(data);
+
+	ad->count ++;
+
+	string header = "<align=center>";
+	string tail = "</align>";
+	string millisecond = std::to_string(ad->count);
+
+	std::string str = header + second + tail;
+
+	const char * message = str.c_str();
+
+
+	/* Label */
+
+	elm_object_text_set(ad->label, message);
+
+    return ECORE_CALLBACK_RENEW;
+ }
+
+
+void
+make_clock(appdata_s *ad){
+	ad->count = 0;
+	// 0.01초 마다 호출된다.
+	ecore_timer_add( 0.01, ticktock, ad);
+}

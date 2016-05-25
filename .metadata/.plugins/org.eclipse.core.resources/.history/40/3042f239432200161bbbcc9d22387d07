@@ -1,0 +1,53 @@
+/*
+ * clock.cpp
+ *
+ *  Created on: May 24, 2016
+ *      Author: HyunJae
+ */
+
+#include "clock.h"
+
+using namespace std;
+
+Eina_Bool
+ticktock(void *data) {
+
+
+	appdata_s *ad =  static_cast<appdata_s*>(data);
+
+	ad->count ++;
+
+	string header = "<align=center>";
+	string tail = "</align>";
+	string second = std::to_string(ad->count);
+
+	std::string str = header + second + tail;
+
+	const char * message = str.c_str();
+
+	/* Label */
+
+	elm_object_text_set(ad->label, message);
+
+
+	/*BUTTON*/
+	ad->button = elm_button_add(ad->vbox);
+	elm_object_text_set(ad->button, "STOP");
+	elm_object_style_set(ad->button, "bottom");
+
+	elm_object_content_set(ad->box, ad->button);
+	elm_box_pack_end(ad->box, ad->button);
+
+
+
+
+
+    return ECORE_CALLBACK_RENEW;
+ }
+
+
+void
+make_clock(appdata_s *ad){
+	ad->count = 0;
+	ecore_timer_add( 1.0, ticktock, ad);
+}
