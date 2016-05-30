@@ -76,8 +76,11 @@ static void _bubble_button_mouse_up_cb(void *data, Evas *e, Evas_Object *obj, vo
 	evas_object_color_set(bg, r, g, b, a);
 }
 
+
+// 채팅창 만드는 곳
 static Evas_Object *_bubble_table_create(Evas_Object *parent, Message_Bubble_Style style, const char *main_text, const char *sub_text)
 {
+
 	Evas_Object *bubble_table = NULL;
 	Evas_Object *button = NULL;
 	Evas_Object *bg = NULL;
@@ -197,10 +200,7 @@ ERROR:
 }
 
 
-/**
- *  현재시간 알아오는 함수
- *
- */
+// 지금 시간 받아오는 함수
 static char *_current_time_get(void)
 {
 	Eina_Strbuf *strbuf = eina_strbuf_new();
@@ -273,6 +273,8 @@ static void _send_button_clicked_cb(void *data, Evas_Object *obj, void *event_in
 	_message_send(ad);
 }
 
+
+// 연결이 된 후에 지정되는 메인 레이아웃
 static Evas_Object *_main_view_create(appdata_s *ad)
 {
 	Evas_Object *layout = NULL;
@@ -282,6 +284,8 @@ static Evas_Object *_main_view_create(appdata_s *ad)
 
 	retv_if(!ad, NULL);
 
+
+	// edc파일로 지정되어있는 레이아웃을 열게 된다.
 	layout = elm_layout_add(ad->navi);
 	goto_if(!layout, ERROR);
 	app_resource_get(EDJ_FILE, edj_path, (int) PATH_MAX);
@@ -387,6 +391,7 @@ static void _socket_conn_state_changed_cb(int result, bt_socket_connection_state
 	}
 }
 
+// 블루투스로 데이터 받았을 때!
 static void _socket_data_received_cb(bt_socket_received_data_s *data, void *user_data)
 {
 	Evas_Object *bubble_table = NULL;
@@ -394,7 +399,7 @@ static void _socket_data_received_cb(bt_socket_received_data_s *data, void *user
 
 	ret_if(!data);
 
-	// 메세지에 데이터 받은 값을 전
+	// 메세지에 데이터 받은 값을 전달한다.
 	message = strndup(data->data, data->data_size);
 	goto_if(!message, ERROR);
 
@@ -431,6 +436,8 @@ HAPI void bt_chat_room_layout_create(appdata_s *ad)
 	Elm_Object_Item *navi_it = NULL;
 	int ret = -1;
 
+
+	// 블루투스로 데이터를 받았을 때 콜백
 	bt_socket_set_data_received_cb(_socket_data_received_cb, NULL);
 
 	ret = bt_socket_unset_connection_state_changed_cb();
@@ -439,7 +446,7 @@ HAPI void bt_chat_room_layout_create(appdata_s *ad)
 	ret = bt_socket_set_connection_state_changed_cb(_socket_conn_state_changed_cb, ad);
 	ret_if(ret != BT_ERROR_NONE);
 
-	main_scroller = _main_view_create(ad);
+	main_scroller = z(ad);
 	ret_if(!main_scroller);
 
 	evas_object_event_callback_add(main_scroller, EVAS_CALLBACK_DEL, _on_main_scroller_del_cb, NULL);

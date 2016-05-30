@@ -19,6 +19,8 @@
 typedef struct appdata {
 	Evas_Object *win;
 	Evas_Object *conform;
+	Evas_Object *layout;
+	Evas_Object *navi;
 	Evas_Object *box;
 	Evas_Object *buttonBox;
 	Evas_Object *title;
@@ -29,6 +31,11 @@ typedef struct appdata {
 	int milliseconds;
 	bool start;
 	Ecore_Timer* timer;
+	Eext_Circle_Surface *circle_surface;
+
+
+	int win_w;
+	int win_h;
 
 } appdata_s;
 

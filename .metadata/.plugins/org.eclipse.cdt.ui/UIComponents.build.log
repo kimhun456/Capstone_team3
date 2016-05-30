@@ -1,35 +1,13 @@
-21:33:14 **** Build of configuration Debug for project UIComponents ****
+16:39:07 **** Incremental Build of configuration Debug for project UIComponents ****
 ninja all 
-[1/24] Building src/bg.o
-[2/24] Building src/button.o
-[3/24] Building src/check.o
-[4/24] Building src/eext_datetime.o
-[5/24] Building src/eext_genlist.o
-[6/24] Building src/eext_more_option.o
-[7/24] Building src/eext_progressbar.o
-[8/24] Building src/eext_rotary_selector.o
-[9/24] Building src/eext_scroller.o
-[10/24] Building src/eext_slider.o
-[11/24] Building src/eext_spinner.o
-[12/24] Building src/entry.o
-[13/24] Building src/genlist.o
-[14/24] Building src/image.o
-[15/24] Building src/index.o
-[16/24] Building src/layout.o
-[17/24] Building src/main.o
-[18/24] Building src/map.o
-[19/24] Building src/popup.o
-[20/24] Building src/progressbar.o
-[21/24] Building src/radio.o
-[22/24] Building src/scroller.o
-[23/24] Building res/ui_controls.edj
+[1/2] Linking uicomponents
+[2/2] Building res/ui_controls.edj
 edje_cc: Warning. Part 'elm.text.progressbar1' in group 'eext_progressbar_layout' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
 edje_cc: Warning. This is almost certainly not what you want.
 edje_cc: Warning. Part 'elm.text.progressbar2' in group 'eext_progressbar_layout' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
 edje_cc: Warning. This is almost certainly not what you want.
 edje_cc: Warning. Part 'elm.text.slider' in group 'slider_layout' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
 edje_cc: Warning. This is almost certainly not what you want.
-[24/24] Linking uicomponents
 
-21:33:17 Build Finished (took 2s.476ms)
+16:39:08 Build Finished (took 626ms)
 

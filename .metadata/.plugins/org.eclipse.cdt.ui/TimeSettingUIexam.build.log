@@ -1,0 +1,7 @@
+21:33:13 **** Build of configuration Debug for project TimeSettingUIexam ****
+ninja all 
+[1/2] Building src/main.o
+[2/2] Linking timesettinguiexam
+
+21:33:13 Build Finished (took 372ms)
+

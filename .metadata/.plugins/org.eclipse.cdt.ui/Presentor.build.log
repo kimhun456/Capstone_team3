@@ -1,6 +1,15 @@
-17:47:13 **** Incremental Build of configuration Debug for project Presentor ****
+17:11:50 **** Build of configuration Debug for project Presentor ****
 ninja all 
-ninja: no work to do.
+[1/6] Building src/bt_chat.o
+[2/6] Building src/bt_chat_room.o
+[3/6] Building src/bt_genlist.o
+[4/6] Building src/bt_mgr.o
+[5/6] Building src/bt_noti.o
+../src/bt_mgr.c:127:13: warning: unused function '_adapter_discovery_state_changed_cb' [-Wunused-function]
+static void _adapter_discovery_state_changed_cb(int result, bt_adapter_device_discovery_state_e discovery_state, bt_adapter_device_discovery_info_s *discovery_info, void *user_data)
+            ^
+1 warning generated.
+[6/6] Linking capstone
 
-17:47:13 Build Finished (took 98ms)
+17:11:51 Build Finished (took 1s.142ms)
 

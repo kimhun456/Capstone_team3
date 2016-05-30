@@ -4,11 +4,19 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>5JAYyztokyMDdXcRAgQdaS95I2QQS+ptfTRpB5E0Plc=</DigestValue>
+<DigestValue>iwnnijR9yyNZsl5RYAdE7BbYRHs134tQQcudex5cMC0=</DigestValue>
 </Reference>
 <Reference URI="bin%2Fbasicui">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>klAvLyV1dJ5ss3KI5pDop2THWNrfGQH+PL0qa155H9E=</DigestValue>
+<DigestValue>oZQZXbWWYyVaZjQIV2CbE5bPImobh+15luOyqYos0+8=</DigestValue>
+</Reference>
+<Reference URI="res%2Fedje%2Fbt_chat.edj">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>V1viKWtQfoS+RRdIQfM7lmCHbQBpPMXJec11G1CT/3Y=</DigestValue>
+</Reference>
+<Reference URI="res%2Fedje%2Fcreate_server.edj">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SEWg3J85xu2mvgRHsGn/rAmwG4tG9PQifGp/NEiF4IA=</DigestValue>
 </Reference>
 <Reference URI="res%2Fimages%2Fnext.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -35,11 +43,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-SZysFPF8bkVfIHSTdfMKt8SM4rnW7N0Fu6EBCp51/pGY8xAJ7/kjI4Ex45jLpG/PzONSPXJ89UJd
-UUTncxeHxS6RfG2uTlO59DoBxCaYEUUczK2Ga7Dp1b2rQ002YPH/zw11vgTAYYlJ8YVr4tlk2y22
-o035ICh12cvwhY1GcfZZng9JHF2wutSDvOQAUjaKQcepnjKMYvY3Eb0z2aDy5TTrtBBw136DJs6n
-4Kw38ct37zNb5KP/dgPtM2tTI0Js3N5FrnfmJlSo8AUDESJ7G+eANFA5dLB9V1CrasNJAv17SfD/
-xfvg/w5xbcEfU3iG++y3Dw1R4z8jT3w2DnR5WA==
+Sg24wHQWlQRvII6hl9QnxG2+84mMOZQqrlVC48NuGcEuHzFpK3NWZLChLC7v0wGkNvXKNW1O+m71
+JAIhcfBp3XnPDAyHRrK0fTu5ISa2lAUcWqeeRO1UzI06WDiSMTg67UPbambuvtMnaVZI5adyvABZ
++XSs3NOmv1KFATOTitmhEPFKjgn0/klFMcO8r1pBrEx0lt+rZPwsYIiwElkxcq1vilmgzTpsRQmK
+jPGu+W7gHbtbIFL/Cxwny2ih8NSPDn/mnr7pIY5CZx/QVPWq3Lqfeq5XGW9VAoXOdlQ5zQ+tsVNV
+9Vd9qp6wfDD7Ak2LMcr5voaQbT47GvR1sVWIlA==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

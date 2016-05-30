@@ -1,0 +1,13 @@
+02:46:09 **** Build of configuration Debug for project BluetoothLEService ****
+ninja all 
+[1/8] Building src/data.o
+[2/8] Building src/main.o
+[3/8] Building src/hrs/hrs_common.o
+[4/8] Building src/hrs/hrs_data.o
+[5/8] Building src/hrs/hrs_listener.o
+[6/8] Building src/bt/bt_advertiser.o
+[7/8] Building src/bt/bt_common.o
+[8/8] Linking bluetoothleservice
+
+02:46:11 Build Finished (took 1s.580ms)
+

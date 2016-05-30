@@ -46,6 +46,10 @@ static void _socket_conn_state_changed_cb(int result, bt_socket_connection_state
 			_D("Connected %d %d", ad->socket_fd, connection->socket_fd);
 			ad->role = connection->local_role;
 			ad->socket_fd = connection->socket_fd;
+
+			// 블루투스 채팅룸 레이아웃 만들기
+
+			// 여기를 이제 내가 원하는 레이아웃으로 바꿔주면 된다.
 			bt_chat_room_layout_create(ad);
 			if (s_info.noti) {
 				evas_object_del(s_info.noti);
@@ -180,6 +184,8 @@ static void _server_create(appdata_s *ad)
 	ad->server_socket_fd = server_socket_fd;
 	_D("[bt_socket_create_rfcomm] socket %d", server_socket_fd);
 
+
+	// 여기가 연결이 되면 호출 되는 부분이다.
 	ret = bt_socket_set_connection_state_changed_cb(_socket_conn_state_changed_cb, ad);
 	ret_if(ret != BT_ERROR_NONE);
 
@@ -189,6 +195,8 @@ static void _server_create(appdata_s *ad)
 	}
 }
 
+
+// 서버연결이 됬을 때 레이아웃을 쓰는 곳
 static void _server_layout_create(appdata_s *ad)
 {
 	Evas_Object *layout = NULL;
@@ -260,7 +268,6 @@ HAPI void bt_mgr_initialize(void *data, bt_mgr_type type)
 			s_info.noti = noti;
 		}
 	} else {
-
 
 
 		_server_layout_create(ad);

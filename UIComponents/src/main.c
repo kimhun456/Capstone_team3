@@ -87,6 +87,11 @@ naviframe_pop_cb(void *data, Elm_Object_Item *it)
 	return EINA_FALSE;
 }
 
+
+/**
+	genlist를 생성한다.
+
+**/
 static void
 create_list_view(appdata_s *ad)
 {
@@ -107,8 +112,16 @@ create_list_view(appdata_s *ad)
 	evas_object_smart_callback_add(genlist, "selected", gl_selected_cb, NULL);
 
 	circle_genlist = eext_circle_object_genlist_add(genlist, ad->circle_surface);
-	eext_circle_object_genlist_scroller_policy_set(circle_genlist, ELM_SCROLLER_POLICY_OFF, ELM_SCROLLER_POLICY_AUTO);
+
+	/*
+	extension circle genlist
+	로타리이벤트로 스크롤이 가능하게 된다.
+	*/
+	// (오브젝트 , horizontal, vertical)
+	eext_circle_object_genlist_scroller_policy_set(circle_genlist,
+		ELM_SCROLLER_POLICY_OFF, ELM_SCROLLER_POLICY_AUTO);
 	eext_rotary_object_event_activated_set(circle_genlist, EINA_TRUE);
+
 
 	/* Genlist Title Item style */
 	ttc->item_style = "title";
@@ -126,7 +139,7 @@ create_list_view(appdata_s *ad)
 
 	/* Title Items Here */
 	elm_genlist_item_append(genlist, ttc, NULL, NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
-
+	
 	/* Main Menu Items Here */
 	id = calloc(sizeof(item_data), 1);
 	id->index = index++;
@@ -193,7 +206,6 @@ create_list_view(appdata_s *ad)
 	id->index = index++;
 	id->item = elm_genlist_item_append(genlist, itc, id, NULL, ELM_GENLIST_ITEM_NONE, eext_spinner_cb, ad);
 
-
 	elm_genlist_item_append(genlist, ptc, NULL, NULL, ELM_GENLIST_ITEM_NONE, NULL, NULL);
 
 	elm_genlist_item_class_free(itc);
@@ -207,6 +219,10 @@ create_list_view(appdata_s *ad)
 	elm_naviframe_item_pop_cb_set(nf_it, naviframe_pop_cb, ad->win);
 }
 
+
+/**
+	base gui 를 만든다.
+**/
 static void
 create_base_gui(appdata_s *ad)
 {
@@ -244,6 +260,8 @@ create_base_gui(appdata_s *ad)
 	/* Base Layout */
 	ad->layout = elm_layout_add(ad->conform);
 	evas_object_size_hint_weight_set(ad->layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+
+	// 레이아웃 테마를 셋한다 ?
 	elm_layout_theme_set(ad->layout, "layout", "application", "default");
 	evas_object_show(ad->layout);
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="org.example.bluetoothleservice" version="1.0.0">
+    <profile name="wearable"/>
+    <service-application appid="org.example.bluetoothleservice" exec="bluetoothleservice" multiple="false" nodisplay="true" taskmanage="false" type="capp">
+        <label>bluetoothleservice</label>
+        <icon>bluetoothleservice.png</icon>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/bluetooth</privilege>
+        <privilege>http://tizen.org/privilege/healthinfo</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/network.bluetooth.le">true</feature>
+    <feature name="http://tizen.org/feature/network.bluetooth">true</feature>
+</manifest>

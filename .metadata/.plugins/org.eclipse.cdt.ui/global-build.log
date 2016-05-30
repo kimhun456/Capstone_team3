@@ -1969,3 +1969,310 @@ ninja: no work to do.
 ninja all 
 [1/2] Building src/basicui.o
 [2/2] Linking basicui
+16:35:14 **** Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/3] Building src/basicui.o
+[2/3] Building src/clock.o
+FAILED: clang++ -MMD -MT src/basicui.o -MF src/basicui.o.d  -I"/Users/HyunJae/tizen/BasicUI/inc" -O0 -g3 -Wall -c -std=c++11 -fmessage-length=0 -target i386-tizen-linux-gnueabi -gcc-toolchain /Users/HyunJae/tizen-sdk/tools/smart-build-interface/../i386-linux-gnueabi-gcc-4.6/ -ccc-gcc-name i386-linux-gnueabi-g++ -march=i386 -Wno-gnu -fPIE --sysroot="/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/libxml2" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/appcore-agent" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/appcore-watch" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/appfw" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/badge" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/base" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/cairo" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ckm" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/content" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/context-manager" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/dbus-1.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/device" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/dlog" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ecore-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/e_dbus-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/edje-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eet-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/efl-extension" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/efreet-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eina-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eina-1/eina" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eio-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/elementary-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/embryo-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ethumb-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/evas-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ewebkit2-0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/fontconfig" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/freetype2" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/gio-unix-2.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/glib-2.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/json-glib-1.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/json-glib-1.0/json-glib" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/location" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/media" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/media-content" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/messaging" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/minizip" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/network" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/notification" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/sensor" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/storage" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/system" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/telephony" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ui" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/widget_service" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/widget_viewer_evas" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/lib/dbus-1.0/include" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/lib/glib-2.0/include" -c ../src/basicui.cpp -o src/basicui.o
+../src/basicui.cpp:31:36: error: use of undeclared identifier 'x'
+        elm_win_screen_size_get(ad->win, &x, &y, &w, &h);
+                                          ^
+../src/basicui.cpp:32:7: error: no member named 'win_w' in 'appdata'
+                ad->win_w = w;
+                ~~  ^
+../src/basicui.cpp:32:15: error: use of undeclared identifier 'w'; did you mean '_Eina_Rectangle::w'?
+                ad->win_w = w;
+                            ^
+                            _Eina_Rectangle::w
+/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eina-1/eina/eina_rectangle.h:41:8: note: '_Eina_Rectangle::w' declared here
+   int w; /**< The width of the rectangle */
+       ^
+../src/basicui.cpp:32:15: error: invalid use of non-static data member 'w'
+                ad->win_w = w;
+                            ^
+../src/basicui.cpp:33:7: error: no member named 'win_h' in 'appdata'
+                ad->win_h = h;
+                ~~  ^
+../src/basicui.cpp:33:15: error: use of undeclared identifier 'h'; did you mean '_Eina_Rectangle::h'?
+                ad->win_h = h;
+                            ^
+                            _Eina_Rectangle::h
+/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eina-1/eina/eina_rectangle.h:42:8: note: '_Eina_Rectangle::h' declared here
+   int h; /**< The height of the rectangle */
+       ^
+../src/basicui.cpp:33:15: error: invalid use of non-static data member 'h'
+                ad->win_h = h;
+                            ^
+../src/basicui.cpp:47:6: error: no member named 'circle_surface' in 'appdata'
+        ad->circle_surface = eext_circle_surface_conformant_add(ad->conform);
+        ~~  ^
+8 errors generated.
+ninja: build stopped: subcommand failed.
+16:35:50 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/3] Building src/basicui.o
+[2/3] Building src/clock.o
+FAILED: clang++ -MMD -MT src/basicui.o -MF src/basicui.o.d  -I"/Users/HyunJae/tizen/BasicUI/inc" -O0 -g3 -Wall -c -std=c++11 -fmessage-length=0 -target i386-tizen-linux-gnueabi -gcc-toolchain /Users/HyunJae/tizen-sdk/tools/smart-build-interface/../i386-linux-gnueabi-gcc-4.6/ -ccc-gcc-name i386-linux-gnueabi-g++ -march=i386 -Wno-gnu -fPIE --sysroot="/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/libxml2" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/appcore-agent" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/appcore-watch" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/appfw" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/badge" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/base" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/cairo" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ckm" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/content" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/context-manager" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/dbus-1.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/device" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/dlog" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ecore-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/e_dbus-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/edje-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eet-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/efl-extension" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/efreet-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eina-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eina-1/eina" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eio-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/elementary-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/embryo-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ethumb-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/evas-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ewebkit2-0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/fontconfig" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/freetype2" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/gio-unix-2.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/glib-2.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/json-glib-1.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/json-glib-1.0/json-glib" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/location" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/media" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/media-content" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/messaging" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/minizip" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/network" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/notification" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/sensor" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/storage" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/system" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/telephony" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ui" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/widget_service" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/widget_viewer_evas" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/lib/dbus-1.0/include" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/lib/glib-2.0/include" -c ../src/basicui.cpp -o src/basicui.o
+../src/basicui.cpp:31:36: error: use of undeclared identifier 'x'
+        elm_win_screen_size_get(ad->win, &x, &y, &w, &h);
+                                          ^
+../src/basicui.cpp:32:7: error: no member named 'win_w' in 'appdata'
+                ad->win_w = w;
+                ~~  ^
+../src/basicui.cpp:32:15: error: use of undeclared identifier 'w'; did you mean '_Eina_Rectangle::w'?
+                ad->win_w = w;
+                            ^
+                            _Eina_Rectangle::w
+/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eina-1/eina/eina_rectangle.h:41:8: note: '_Eina_Rectangle::w' declared here
+   int w; /**< The width of the rectangle */
+       ^
+../src/basicui.cpp:32:15: error: invalid use of non-static data member 'w'
+                ad->win_w = w;
+                            ^
+../src/basicui.cpp:33:7: error: no member named 'win_h' in 'appdata'
+                ad->win_h = h;
+                ~~  ^
+../src/basicui.cpp:33:15: error: use of undeclared identifier 'h'; did you mean '_Eina_Rectangle::h'?
+                ad->win_h = h;
+                            ^
+                            _Eina_Rectangle::h
+/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eina-1/eina/eina_rectangle.h:42:8: note: '_Eina_Rectangle::h' declared here
+   int h; /**< The height of the rectangle */
+       ^
+../src/basicui.cpp:33:15: error: invalid use of non-static data member 'h'
+                ad->win_h = h;
+                            ^
+../src/basicui.cpp:47:21: error: assigning to 'Evas_Object *' (aka '_Evas_Object *') from incompatible type 'Eext_Circle_Surface *' (aka '_Eext_Circle_Surface *')
+        ad->circle_surface = eext_circle_surface_conformant_add(ad->conform);
+                           ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+8 errors generated.
+ninja: build stopped: subcommand failed.
+16:36:21 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/2] Building src/basicui.o
+FAILED: clang++ -MMD -MT src/basicui.o -MF src/basicui.o.d  -I"/Users/HyunJae/tizen/BasicUI/inc" -O0 -g3 -Wall -c -std=c++11 -fmessage-length=0 -target i386-tizen-linux-gnueabi -gcc-toolchain /Users/HyunJae/tizen-sdk/tools/smart-build-interface/../i386-linux-gnueabi-gcc-4.6/ -ccc-gcc-name i386-linux-gnueabi-g++ -march=i386 -Wno-gnu -fPIE --sysroot="/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/libxml2" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/appcore-agent" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/appcore-watch" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/appfw" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/badge" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/base" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/cairo" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ckm" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/content" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/context-manager" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/dbus-1.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/device" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/dlog" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ecore-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/e_dbus-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/edje-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eet-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/efl-extension" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/efreet-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eina-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eina-1/eina" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eio-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/elementary-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/embryo-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ethumb-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/evas-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ewebkit2-0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/fontconfig" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/freetype2" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/gio-unix-2.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/glib-2.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/json-glib-1.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/json-glib-1.0/json-glib" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/location" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/media" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/media-content" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/messaging" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/minizip" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/network" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/notification" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/sensor" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/storage" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/system" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/telephony" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ui" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/widget_service" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/widget_viewer_evas" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/lib/dbus-1.0/include" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/lib/glib-2.0/include" -c ../src/basicui.cpp -o src/basicui.o
+../src/basicui.cpp:31:36: error: use of undeclared identifier 'x'
+        elm_win_screen_size_get(ad->win, &x, &y, &w, &h);
+                                          ^
+../src/basicui.cpp:32:7: error: no member named 'win_w' in 'appdata'
+                ad->win_w = w;
+                ~~  ^
+../src/basicui.cpp:32:15: error: use of undeclared identifier 'w'; did you mean '_Eina_Rectangle::w'?
+                ad->win_w = w;
+                            ^
+                            _Eina_Rectangle::w
+/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eina-1/eina/eina_rectangle.h:41:8: note: '_Eina_Rectangle::w' declared here
+   int w; /**< The width of the rectangle */
+       ^
+../src/basicui.cpp:32:15: error: invalid use of non-static data member 'w'
+                ad->win_w = w;
+                            ^
+../src/basicui.cpp:33:7: error: no member named 'win_h' in 'appdata'
+                ad->win_h = h;
+                ~~  ^
+../src/basicui.cpp:33:15: error: use of undeclared identifier 'h'; did you mean '_Eina_Rectangle::h'?
+                ad->win_h = h;
+                            ^
+                            _Eina_Rectangle::h
+/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eina-1/eina/eina_rectangle.h:42:8: note: '_Eina_Rectangle::h' declared here
+   int h; /**< The height of the rectangle */
+       ^
+../src/basicui.cpp:33:15: error: invalid use of non-static data member 'h'
+                ad->win_h = h;
+                            ^
+../src/basicui.cpp:47:21: error: assigning to 'Evas_Object *' (aka '_Evas_Object *') from incompatible type 'Eext_Circle_Surface *' (aka '_Eext_Circle_Surface *')
+        ad->circle_surface = eext_circle_surface_conformant_add(ad->conform);
+                           ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+8 errors generated.
+ninja: build stopped: subcommand failed.
+16:36:23 **** Build of configuration Debug for project Presentor ****
+ninja all 
+[1/1] Linking capstone
+Command canceled
+16:37:19 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/3] Building src/basicui.o
+[2/3] Building src/clock.o
+[3/3] Linking basicui
+16:39:08 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+ninja: no work to do.
+16:43:47 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/2] Building src/basicui.o
+[2/2] Linking basicui
+16:46:10 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/3] Building src/basicui.o
+[2/3] Building src/clock.o
+[3/3] Linking basicui
+16:48:13 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/2] Building src/clock.o
+../src/clock.cpp:114:19: warning: unused variable 'nf_it' [-Wunused-variable]
+        Elm_Object_Item *nf_it;
+                         ^
+1 warning generated.
+[2/2] Linking basicui
+16:49:02 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/2] Building src/clock.o
+../src/clock.cpp:114:19: warning: unused variable 'nf_it' [-Wunused-variable]
+        Elm_Object_Item *nf_it;
+                         ^
+1 warning generated.
+[2/2] Linking basicui
+16:49:21 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/2] Building src/clock.o
+../src/clock.cpp:114:19: warning: unused variable 'nf_it' [-Wunused-variable]
+        Elm_Object_Item *nf_it;
+                         ^
+1 warning generated.
+[2/2] Linking basicui
+16:49:51 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/2] Building src/clock.o
+../src/clock.cpp:114:19: warning: unused variable 'nf_it' [-Wunused-variable]
+        Elm_Object_Item *nf_it;
+                         ^
+1 warning generated.
+[2/2] Linking basicui
+16:51:09 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/3] Building src/basicui.o
+[2/3] Building src/clock.o
+[3/3] Linking basicui
+16:54:36 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/4] Building src/basicui.o
+[2/4] Building res/edje/bt_chat.edj
+[3/4] Building res/edje/create_server.edj
+edje_cc: Warning. Part 'console' in group 'create_server' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
+edje_cc: Warning. This is almost certainly not what you want.
+[4/4] Linking basicui
+16:59:28 **** Build of configuration Debug for project Adventure ****
+ninja all 
+[1/3] Building src/adventure.o
+[2/3] Building res/edje/adventure.edj
+[3/3] Linking adventure
+17:09:35 **** Incremental Build of configuration Debug for project Adventure ****
+ninja all 
+[1/2] Building src/adventure.o
+[2/2] Linking adventure
+17:23:02 **** Incremental Build of configuration Debug for project Adventure ****
+ninja all 
+[1/1] Building res/edje/adventure.edj
+21:24:28 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/2] Building src/basicui.o
+[2/2] Linking basicui
+21:25:00 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/2] Building src/basicui.o
+[2/2] Linking basicui
+21:25:41 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/3] Building src/basicui.o
+[2/3] Building src/clock.o
+[3/3] Linking basicui
+21:27:48 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/3] Building src/basicui.o
+[2/3] Building src/clock.o
+../src/clock.cpp:113:15: warning: unused variable 'nf' [-Wunused-variable]
+        Evas_Object *nf = ad->navi;
+                     ^
+1 warning generated.
+[3/3] Linking basicui
+21:28:49 **** Incremental Build of configuration Debug for project BasicUI ****
+ninja all 
+[1/3] Building src/basicui.o
+[2/3] Building src/clock.o
+[3/3] Linking basicui
+21:33:13 **** Build of configuration Debug for project TimeSettingUIexam ****
+ninja all 
+[1/2] Building src/main.o
+[2/2] Linking timesettinguiexam
+21:48:49 **** Build of configuration Debug for project UIComponents ****
+ninja all 
+[1/1] Linking uicomponents
+02:25:01 **** Incremental Build of configuration Debug for project UIComponents ****
+ninja all 
+[1/23] Building src/bg.o
+[2/23] Building src/button.o
+[3/23] Building src/check.o
+[4/23] Building src/eext_datetime.o
+[5/23] Building src/eext_genlist.o
+[6/23] Building src/eext_more_option.o
+[7/23] Building src/eext_progressbar.o
+[8/23] Building src/eext_rotary_selector.o
+[9/23] Building src/eext_scroller.o
+[10/23] Building src/eext_slider.o
+[11/23] Building src/eext_spinner.o
+[12/23] Building src/entry.o
+[13/23] Building src/genlist.o
+[14/23] Building src/image.o
+[15/23] Building src/index.o
+[16/23] Building src/layout.o
+[17/23] Building src/main.o
+[18/23] Building src/map.o
+[19/23] Building src/popup.o
+[20/23] Building src/progressbar.o
+[21/23] Building src/radio.o
+[22/23] Building src/scroller.o
+[23/23] Linking uicomponents
+02:25:58 **** Incremental Build of configuration Debug for project UIComponents ****
+ninja all 
+ninja: no work to do.
+02:30:32 **** Incremental Build of configuration Debug for project UIComponents ****
+ninja all 
+[1/1] Linking uicomponents
+02:31:24 **** Incremental Build of configuration Debug for project UIComponents ****
+ninja all 
+ninja: no work to do.
+02:40:52 **** Incremental Build of configuration Debug for project UIComponents ****
+ninja all 
+ninja: no work to do.
+02:43:04 **** Incremental Build of configuration Debug for project UIComponents ****
+ninja all 
+ninja: no work to do.
+02:46:09 **** Build of configuration Debug for project BluetoothLEService ****
+ninja all 
+[1/8] Building src/data.o
+[2/8] Building src/main.o
+[3/8] Building src/hrs/hrs_common.o
+[4/8] Building src/hrs/hrs_data.o
+[5/8] Building src/hrs/hrs_listener.o
+[6/8] Building src/bt/bt_advertiser.o
+[7/8] Building src/bt/bt_common.o
+[8/8] Linking bluetoothleservice
+02:47:29 **** Build of configuration Debug for project TimeSettingUI ****
+ninja all 
+[1/2] Building src/main.o
+[2/2] Linking timesettingui
+16:39:07 **** Incremental Build of configuration Debug for project UIComponents ****
+ninja all 
+[1/2] Linking uicomponents
+[2/2] Building res/ui_controls.edj
+edje_cc: Warning. Part 'elm.text.progressbar1' in group 'eext_progressbar_layout' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
+edje_cc: Warning. This is almost certainly not what you want.
+edje_cc: Warning. Part 'elm.text.progressbar2' in group 'eext_progressbar_layout' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
+edje_cc: Warning. This is almost certainly not what you want.
+edje_cc: Warning. Part 'elm.text.slider' in group 'slider_layout' contains description 'default:0' which has text.min: 1 X; but not text.ellipsis: -1;
+edje_cc: Warning. This is almost certainly not what you want.
+16:57:35 **** Incremental Build of configuration Debug for project TimeSettingUI ****
+ninja all 
+[1/1] Linking timesettingui
+17:11:50 **** Build of configuration Debug for project Presentor ****
+ninja all 
+[1/6] Building src/bt_chat.o
+[2/6] Building src/bt_chat_room.o
+[3/6] Building src/bt_genlist.o
+[4/6] Building src/bt_mgr.o
+[5/6] Building src/bt_noti.o
+../src/bt_mgr.c:127:13: warning: unused function '_adapter_discovery_state_changed_cb' [-Wunused-function]
+static void _adapter_discovery_state_changed_cb(int result, bt_adapter_device_discovery_state_e discovery_state, bt_adapter_device_discovery_info_s *discovery_info, void *user_data)
+            ^
+1 warning generated.
+[6/6] Linking capstone

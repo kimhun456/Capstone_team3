@@ -28,9 +28,21 @@ static void _wait_cb(void *data, Evas_Object *obj, void *event_info)
 
 	appdata_s *ad = (appdata_s *) data;
 	ret_if(!ad);
-
+	
 	bt_mgr_initialize(ad, BT_MGR_WAIT);
 }
+
+// Gesture Setting 이 눌렸을 때
+static void _setting_cb(void *data, Evas_Object *obj, void *event_info)
+{
+	_D("%s", __func__);
+
+	appdata_s *ad = (appdata_s *) data;
+	ret_if(!ad);
+
+	// bt_mgr_initialize(ad, BT_MGR_WAIT);
+}
+
 
 static void list_selected_cb(void *data, Evas_Object *obj, void *event_info)
 {
@@ -58,6 +70,7 @@ void create_list_view(appdata_s *ad)
 
 	/* Main Menu Items Here */
 	elm_list_item_append(list, "Wait Connection", NULL, NULL, _wait_cb, ad);
+	elm_list_item_append(list, "Gesture Setting", NULL, NULL, _setting_cb, ad);
 
 	elm_list_go(list);
 

@@ -1,0 +1,6 @@
+17:23:02 **** Incremental Build of configuration Debug for project Adventure ****
+ninja all 
+[1/1] Building res/edje/adventure.edj
+
+17:23:02 Build Finished (took 185ms)
+

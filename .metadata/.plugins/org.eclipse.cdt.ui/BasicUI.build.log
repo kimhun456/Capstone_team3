@@ -1,7 +1,8 @@
-00:53:53 **** Incremental Build of configuration Debug for project BasicUI ****
+21:28:49 **** Incremental Build of configuration Debug for project BasicUI ****
 ninja all 
-[1/2] Building src/basicui.o
-[2/2] Linking basicui
+[1/3] Building src/basicui.o
+[2/3] Building src/clock.o
+[3/3] Linking basicui
 
-00:53:54 Build Finished (took 1s.255ms)
+21:28:50 Build Finished (took 835ms)
 
