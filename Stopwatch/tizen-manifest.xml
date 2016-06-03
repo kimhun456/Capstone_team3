@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="org.example.stopwatch" version="1.0.0">
-	<profile name="wearable" />
-	<ui-application appid="org.example.stopwatch" exec="stopwatch" type="capp" multiple="false" taskmanage="true" nodisplay="false">
-		<icon>stopwatch.png</icon>
-		<label>stopwatch</label>
-	</ui-application>
-</manifest>

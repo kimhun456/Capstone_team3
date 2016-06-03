@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="image1" key="selection"/>
+		<item value="wait_on_socket" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="wait_on_socket"/>
+			<item value="Socket"/>
+			<item value="BT_MGR_UUID"/>
+			<item value="init"/>
+			<item value="_main_view_create"/>
 			<item value="image1"/>
 			<item value="buttonbox"/>
 			<item value="resetButton"/>
-			<item value="resettButton"/>
-			<item value="startButton"/>
-			<item value="label"/>
-			<item value="bubble_box"/>
-			<item value="_bubble_table_create"/>
 		</list>
 		<list key="replacehistory">
 			<item value="buttonBox"/>

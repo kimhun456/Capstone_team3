@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="org.example.timesettinguiexam" version="1.0.0">
-    <profile name="wearable" />
-    <ui-application appid="org.example.timesettinguiexam" exec="timesettinguiexam" type="capp" multiple="false" taskmanage="true" nodisplay="false">
-        <icon>timesettinguiexam.png</icon>
-        <label>timesettinguiexam</label>
-	</ui-application>
-</manifest>

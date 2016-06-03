@@ -1,0 +1,8 @@
+14:34:20 **** Incremental Build of configuration Debug for project CapBluetooth ****
+ninja all 
+[1/3] Building src/bt_chat_room.o
+[2/3] Building src/bt_mgr.o
+[3/3] Linking capbluetooth
+
+14:34:21 Build Finished (took 900ms)
+

@@ -1,6 +1,72 @@
-17:23:02 **** Incremental Build of configuration Debug for project Adventure ****
+17:04:51 **** Build of configuration Debug for project Adventure ****
 ninja all 
-[1/1] Building res/edje/adventure.edj
+[1/4] Building src/adventure.o
+[2/4] Building res/edje/adventure.edj
+[3/4] Building res/edje/test.edj
+FAILED: clang -MMD -MT src/adventure.o -MF src/adventure.o.d  -I"/Users/HyunJae/tizen/Adventure/inc" -O0 -g3 -Wall -c -fmessage-length=0 -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/libxml2" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/appcore-agent" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/appcore-watch" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/appfw" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/badge" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/base" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/cairo" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ckm" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/content" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/context-manager" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/dbus-1.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/device" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/dlog" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ecore-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/e_dbus-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/edje-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eet-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/efl-extension" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/efreet-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eina-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eina-1/eina" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/eio-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/elementary-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/embryo-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ethumb-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/evas-1" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ewebkit2-0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/fontconfig" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/freetype2" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/gio-unix-2.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/glib-2.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/json-glib-1.0" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/json-glib-1.0/json-glib" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/location" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/media" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/media-content" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/messaging" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/minizip" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/network" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/notification" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/sensor" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/storage" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/system" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/telephony" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/ui" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/widget_service" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/include/widget_viewer_evas" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/lib/dbus-1.0/include" -I"/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core/usr/lib/glib-2.0/include" -target i386-tizen-linux-gnueabi -gcc-toolchain /Users/HyunJae/tizen-sdk/tools/smart-build-interface/../i386-linux-gnueabi-gcc-4.6/ -ccc-gcc-name i386-linux-gnueabi-g++ -march=i386 -Wno-gnu  -fPIE --sysroot="/Users/HyunJae/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-emulator.core" -Werror-implicit-function-declaration -c ../src/adventure.c -o src/adventure.o
+../src/adventure.c:38:31: error: no member named 'datetime' in 'struct appdata'
+   elm_datetime_value_get(ad->datetime, &ad->saved_time);
+                          ~~  ^
+../src/adventure.c:40:4: error: implicit declaration of function 'label_text_set' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
+   label_text_set(ad->label, ad->saved_time);
+   ^
+../src/adventure.c:40:23: error: no member named 'label' in 'struct appdata'
+   label_text_set(ad->label, ad->saved_time);
+                  ~~  ^
+../src/adventure.c:42:31: error: no member named 'nf' in 'struct appdata'
+   elm_naviframe_item_pop(ad->nf);
+                          ~~  ^
+../src/adventure.c:52:32: error: no member named 'nf' in 'struct appdata'
+   layout = elm_layout_add(ad->nf);
+                           ~~  ^
+../src/adventure.c:59:29: error: use of undeclared identifier 'ICON_DIR'
+   elm_image_file_set(icon, ICON_DIR "/check.png", NULL);
+                            ^
+../src/adventure.c:68:8: error: no member named 'datetime' in 'struct appdata'
+   ad->datetime = elm_datetime_add(layout);
+   ~~  ^
+../src/adventure.c:70:58: error: no member named 'datetime' in 'struct appdata'
+   circle_datetime = eext_circle_object_datetime_add(ad->datetime, ad->circle_surface);
+                                                     ~~  ^
+../src/adventure.c:73:32: error: no member named 'datetime' in 'struct appdata'
+   elm_datetime_format_set(ad->datetime, FORMAT);
+                           ~~  ^
+../src/adventure.c:74:31: error: no member named 'datetime' in 'struct appdata'
+   elm_datetime_value_set(ad->datetime, &ad->saved_time);
+                          ~~  ^
+../src/adventure.c:76:29: error: no member named 'datetime' in 'struct appdata'
+   elm_object_style_set(ad->datetime, "timepicker/circle");
+                        ~~  ^
+../src/adventure.c:77:67: error: no member named 'datetime' in 'struct appdata'
+   elm_object_part_content_set(layout, "elm.swallow.content", ad->datetime);
+                                                              ~~  ^
+../src/adventure.c:79:40: error: no member named 'nf' in 'struct appdata'
+   nf_it = elm_naviframe_item_push(ad->nf, "Time picker", NULL, NULL, layout, NULL);
+                                   ~~  ^
+../src/adventure.c:84:1: error: static declaration of 'label_text_set' follows non-static declaration
+label_text_set(Evas_Object *label, struct tm t)
+^
+../src/adventure.c:40:4: note: previous implicit declaration is here
+   label_text_set(ad->label, ad->saved_time);
+   ^
+../src/adventure.c:102:8: error: no member named 'saved_time' in 'struct appdata'
+   ad->saved_time = *time_info;
+   ~~  ^
+../src/adventure.c:104:32: error: no member named 'nf' in 'struct appdata'
+   layout = elm_layout_add(ad->nf);
+                           ~~  ^
+../src/adventure.c:109:8: error: no member named 'label' in 'struct appdata'
+   ad->label = elm_label_add(layout);
+   ~~  ^
+../src/adventure.c:110:41: error: no member named 'label' in 'struct appdata'
+   evas_object_size_hint_weight_set(ad->label, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+                                    ~~  ^
+../src/adventure.c:112:23: error: no member named 'label' in 'struct appdata'
+   label_text_set(ad->label, ad->saved_time);
+                  ~~  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+ninja: build stopped: subcommand failed.
 
-17:23:02 Build Finished (took 185ms)
+17:04:52 Build Finished (took 591ms)
 

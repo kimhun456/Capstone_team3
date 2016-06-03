@@ -1,4 +1,4 @@
-/*
+456/*
  * Samsung API
  * Copyright (c) 2009-2015 Samsung Electronics Co., Ltd.
  *
@@ -28,7 +28,7 @@ static void _wait_cb(void *data, Evas_Object *obj, void *event_info)
 
 	appdata_s *ad = (appdata_s *) data;
 	ret_if(!ad);
-	
+
 	bt_mgr_initialize(ad, BT_MGR_WAIT);
 }
 
@@ -77,6 +77,8 @@ void create_list_view(appdata_s *ad)
 	/* This button is set for devices which doesn't have H/W back key. */
 	btn = elm_button_add(nf);
 	elm_object_style_set(btn, "naviframe/end_btn/default");
-	nf_it = elm_naviframe_item_push(nf, "Bluetooth Chat", btn, NULL, list, NULL);
+
+	// 네비프레임 맨위를 설정한다.
+	nf_it = elm_naviframe_item_push(nf, "Gear Presentor", btn, NULL, list, NULL);
 	elm_naviframe_item_pop_cb_set(nf_it, _naviframe_pop_cb, ad);
 }

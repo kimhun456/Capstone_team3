@@ -1,7 +1,10 @@
-02:58:54 **** Incremental Build of configuration Debug for project BluetoothChat ****
+15:28:17 **** Incremental Build of configuration Debug for project BluetoothChat ****
 ninja all 
-[1/2] Building src/bt_chat_room.o
-[2/2] Linking capstone
+[1/5] Building src/bt_chat.o
+[2/5] Building src/bt_chat_room.o
+[3/5] Building src/bt_genlist.o
+[4/5] Building src/bt_mgr.o
+[5/5] Linking bluetoothchat
 
-02:58:55 Build Finished (took 1s.319ms)
+15:28:18 Build Finished (took 1s.274ms)
 

@@ -18,7 +18,7 @@
 #include "bt_chat.h"
 #include "bt_mgr.h"
 #include "bt_noti.h"
-#include "bt_chat_room.h"
+#include "time_setting.h"
 
 #define MAX_NUM_PENDING 1
 
@@ -172,7 +172,7 @@ static void _adapter_discovery_state_changed_cb(int result, bt_adapter_device_di
 }
 
 
-
+// 서버가 실질적으로 만들어 지는곳
 static void _server_create(appdata_s *ad)
 {
 	int server_socket_fd = -1;
@@ -245,6 +245,8 @@ ERROR:
 	return;
 }
 
+
+//Wait Connection이 눌렸을 때
 HAPI void bt_mgr_initialize(void *data, bt_mgr_type type)
 {
 	appdata_s *ad = NULL;

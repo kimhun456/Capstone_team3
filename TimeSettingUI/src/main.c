@@ -35,6 +35,8 @@ label_text_set(Evas_Object *label, struct tm t)
 	elm_object_text_set(label, text_buf);
 }
 
+
+// 클릭을 했을떄
 static void
 set_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 {
@@ -97,6 +99,35 @@ create_main_view(appdata_s *ad)
 	layout = elm_layout_add(ad->nf);
 	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	elm_layout_theme_set(layout, "layout", "bottom_button", "default");
+
+	/*
+
+	bottom_button theme
+
+		group {
+	  name: "elm/layout/bottom_button/default";
+	  parts {
+	    part { name: "elm.swallow.content";
+	      type: SWALLOW;
+	      scale: 1;
+	      description { state: "default" 0.0;
+	      }
+	    }
+	    part { name: "elm.swallow.button";
+	      type: SWALLOW;
+	      description { state: "default" 0.0;
+	        rel1.relative: 0.0 1.0;
+	        rel2.relative: 1.0 1.0;
+	        align: 0.5 1.0;
+	        fixed: 0 1;
+	        visible: 1;
+	      }
+	    }
+	  }
+	}
+
+
+	*/
 	evas_object_show(layout);
 
 	ad->label = elm_label_add(layout);
