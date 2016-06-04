@@ -22,16 +22,6 @@
 
 #define MAX_NUM_PENDING 1
 
-static struct _s_info {
-	bt_adapter_device_discovery_info_s *info;
-	Evas_Object *list;
-	Evas_Object *noti;
-} s_info = {
-	.info = NULL,
-	.noti = NULL,
-	.list = NULL,
-};
-
 static void _socket_conn_state_changed_cb(int result, bt_socket_connection_state_e connection_state, bt_socket_connection_s *connection, void *user_data)
 {
 	appdata_s *ad = (appdata_s *) user_data;
