@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="org.tizen.capbluetooth" version="1.0.0">
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="kr.ac.ajou.presentor" version="1.0.0">
     <profile name="mobile"/>
-	<ui-application appid="org.tizen.capbluetooth" exec="capbluetooth" multiple="false" nodisplay="false" taskmanage="true" type="capp">
-        <label>capbluetooth</label>
-        <icon>capbluetooth.png</icon>
+    <ui-application appid="kr.ac.ajou.presentor" exec="presentor" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>Presentor</label>
+        <icon>presentor.png</icon>
     </ui-application>
     <privileges>
         <privilege>http://tizen.org/privilege/appmanager.launch</privilege>

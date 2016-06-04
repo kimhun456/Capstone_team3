@@ -1,0 +1,7 @@
+15:36:36 **** Incremental Build of configuration Debug for project BasicUIwithEDC ****
+ninja all 
+[1/2] Building src/basicuiwithedc.o
+[2/2] Linking basicuiwithedc
+
+15:36:37 Build Finished (took 615ms)
+

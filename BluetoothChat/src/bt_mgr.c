@@ -67,7 +67,10 @@ static void _device_bond_created_cb(int result, bt_device_info_s *device_info, v
 	}
 
 	if (device_info != NULL && !strncmp(device_info->remote_address, s_info.info->remote_address, strlen(device_info->remote_address))) {
+
+
 		ret = bt_socket_connect_rfcomm(s_info.info->remote_address, BT_MGR_UUID2);
+
 		if (ret != BT_ERROR_NONE) {
 			_E("[bt_socket_listen_and_accept_rfcomm] Failed");
 			goto DEL_NOTI;

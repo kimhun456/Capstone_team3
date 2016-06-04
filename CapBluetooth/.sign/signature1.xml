@@ -4,11 +4,11 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>emfN5Q4N6H7IMo/7inUspZLKzqtf4HRw05QGkxSb+8k=</DigestValue>
+<DigestValue>Q/PWk2wAfAcYkY5sudcMy1JwTAkHuxHVMKF20pVnHKc=</DigestValue>
 </Reference>
-<Reference URI="bin%2Fcapbluetooth">
+<Reference URI="bin%2Fpresentor">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>8YIQotcyD+d51yLvKTDhsvnFvkAdNXIxto5/D1jOcwk=</DigestValue>
+<DigestValue>c/86vrflxz0b3MzHJIN8Ar8NQtOjBg5WSsVDiYk1sVc=</DigestValue>
 </Reference>
 <Reference URI="res%2Fedje%2Fbt_chat.edj">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -22,9 +22,13 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>1d0oEZHqPn+QzNzGIHwj9ODby6x9ggFs9uOsav6jPNs=</DigestValue>
 </Reference>
+<Reference URI="shared%2Fres%2Fpresentor.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>d7OFtjdbLrEBvKGOT3Ym5vAztvsWLCsHr7gOnvEhnwg=</DigestValue>
+</Reference>
 <Reference URI="tizen-manifest.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>/UHnMiQqa7TK+j2LGG8L40YHAbcwQnDdCgLYsjgsWt4=</DigestValue>
+<DigestValue>o0X6e14LClFUev+isRP6e7otk1p3vABH1+p74OgAtCg=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -35,11 +39,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-bux9+uVLA7XbuFGRIBbxWRNtXqqEpimqgcidXGjr5T+2RuQUk9iAQmJTwQBAZ7C99aEEw9v74Qd9
-BfAiAKyG5A9ohD2i7j7ciF3BsVtFb/34gsVN4T7KIJ49GmHsMdCZrXNJTocEywxMlZ66h5gF/pT1
-FRqheYPquHwtuJJB+oGYgrn7EFggpRUnOf7VPP4c/Ack+6WfFWgQnz02TLdURhykfDzQ8owchite
-r3jufA4sp/A/oTvtnVnNnbP7ek0IZb3m32xitzpI/osH5GY3vCs3la3t8YTpBuhcOW9I6FT1YbqF
-nUuOo200u0l/qJBzlcqsSqBw94GKx8f370b8ew==
+eJ7z+ndi5Jb3WPiCT9ikrH7w+lr6BIvQxJf0H93G1fNxs/pkC6YWGZZGrojX4tvWet9li3ggng5M
+ZQck7S1FSDMqukCu7xBWhcNBEvzJjOmoQ5q255oM/A4/G9iQZ9NMDzwSZtkAiBMs9mBSCG9S3aLr
+US62amAZhPt3Ql7RvDf6+qOzIoP4BkkLYZxbKjQftSKSu/XHLe9CoJCmqlLpy6kXjcchMZHgXWrf
+WIeDdda+LsCeslSxq6auuKbVn8IFfUtB/YAxc0VQ9VJJ8vcIUg9xqoD4GAgg4xOSwXNwZYkaDjiq
+Ac7DAz9xZ8t5HGR3uXkn9Eews7NAr9gjSs3YQQ==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

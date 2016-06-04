@@ -84,6 +84,7 @@ time_set_button_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 
 	nf_it = elm_naviframe_item_push(ad->nf, "Time picker", NULL, NULL, layout, NULL);
 	elm_naviframe_item_title_enabled_set(nf_it, EINA_FALSE, EINA_FALSE);
+
 }
 
 static void
@@ -129,6 +130,7 @@ create_main_view(appdata_s *ad)
 
 	*/
 	evas_object_show(layout);
+
 
 	ad->label = elm_label_add(layout);
 	evas_object_size_hint_weight_set(ad->label, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
